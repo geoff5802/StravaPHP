@@ -12,9 +12,9 @@ use League\OAuth2\Client\Provider\AbstractProvider as AbstractProvider;
  * @see: https://github.com/thephpleague/oauth2-client
  * @author Bas van Dorst
  */
+
 class OAuth extends AbstractProvider
 {
-
     public $scopes = array('write');
     public $responseType = 'json';
     
